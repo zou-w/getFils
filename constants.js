@@ -1,0 +1,56 @@
+const headers = {
+  "Accept-Ssl":
+    "qL6c4RJGHijD/Wi1R+evMy09H4EP8ihEjgHl3YrssNlj0bFQYYR8CvUzNS5IrIqCkGnMjPSw5S+lwrtaK5b9bzMyqWI+LkilrBe6Hvueesrm8JqPxAQsfXye0HFEfLa+GpsLHOASpKEcvljDvqx5ZQRwBCPsCyUJdLPbw1oxGxE=",
+  Cookie:
+    "guid=211f7d0d-d77a-068b-7ddb-c18d58488269; tfstk=evRx1TNLF0mDyCEFEjHk_jMuMjuu9vq2uC-bs5fGmYtRV332ohY1XPKDqqPGiSVOChtPnOi2S3C94nBmuKxM25KJRNYmuix8CwjlliTm3f3OVnBi7sVM21KPGOJcjijO6F-KrDcntE8V__inxX0Nj3zF1hGAzzY2u1zyJNhKEEPTjXDGDCz4Oq0utBAOlvw7vkM20oqF3MTfcr42Nx5Y3eS815O8tMII6gF_1QQA43OH9Zi7xMQgh438QRWfzRCvZs9gNi0NyM0uERyNEa7Rx438QRWfzaInrX2aQTbP.; loginName=zhangyu8101; fp=; userOrgCode=5001180900; china-tower-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2NvZGUiOiJ6aGFuZ3l1ODEwMSIsInVzZXJfbmFtZSI6IuW8oOeRnCIsImV4cCI6MTcwOTYyNTEwNH0.avn2yrprYqpRJGtEztmkrU3a5wVX25WAy4oEDqt8ri0",
+  "Sec-Gpc": 1,
+  Token:
+    "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2NvZGUiOiJ6aGFuZ3l1ODEwMSIsInVzZXJfbmFtZSI6IuW8oOeRnCIsImV4cCI6MTcwOTYyNTExMH0.L57L6gvquch78D9DZi0altAOg_rxAyybhc3Ioo9O4nw",
+};
+
+const datas = {
+  startMoney: "",
+  endMoney: "",
+  contractCode: "",
+  contractGno: "",
+  contractName: "",
+  contracttype: "",
+  mySupply: "",
+  undertakeUser: "",
+  otherSupply: "",
+  flowType: "",
+  undertakeDept: "45252",
+  modelType: "",
+  isqueryusername: "",
+  isOrder: "",
+  fulfilDept: "",
+  fulfilUser: "",
+  contractState: "",
+  isRelevanceFrame: "",
+  contractNature: "",
+  ctImportance: "",
+  startFlowBeginDate: "",
+  startFlowEndDate: "",
+  ourSignBeginDate: "",
+  ourSignEndDate: "",
+  endFlowBeginDate: "",
+  endFlowEndDate: "",
+  validDateStart: "",
+  validDateEnd: "",
+  fulfilStartDate: "",
+  fulfilEndDate: "",
+  buss_category: "",
+  economicType: "",
+  otherSideWay: "",
+  isassurancehonest: "",
+  IS_RELEVANCE: "",
+  RELEVANCE_COMPANY: "",
+  IS_INTERNAL_TRANS: "",
+  pageNum: 1,
+  pageSize: 100,
+  pageName: "ComprehensiveQuery",
+  stampFinishDateStart: "",
+  stampFinishDateEnd: "",
+};
+
+export { headers, datas };
